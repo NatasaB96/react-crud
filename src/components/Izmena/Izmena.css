@@ -1,0 +1,12 @@
+.dugmeX{
+    background: #AA0110;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px 10px;
+    transition: .4s ease-in;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

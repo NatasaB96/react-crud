@@ -1,0 +1,108 @@
+th, td{
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: #edeaea;
+}
+
+td{
+    padding: 5px 0;
+}
+
+th{
+    background-color: #AA0110;
+    color: white;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+.tabela{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.izbrisi{
+    background: #AA0110;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px 10px;
+    transition: .4s ease-in;
+    cursor: pointer;
+}
+
+
+.izmeni{
+    background-color: #90B350;
+    padding: 5px 30px;
+    color: white;
+    border: none;
+    border-radius: 5px 10px;
+    transition: .4s ease-in;
+    cursor: pointer;
+}
+
+.izmeni:hover,
+.izbrisi:hover{
+    transform: scale(1.1); 
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dodajNamirnicu{
+    background-color: #AA0110;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px 10px;
+    cursor: pointer;
+    transition: .4s ease-in;
+}
+
+.dodajNamirnicu:hover{
+    padding: 15px;
+    background-color: #90B350;
+}
+
+.paginacija{
+    padding-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.paginacija button{
+    background-color: #AA0110;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 5px;
+    cursor: pointer;
+}
+
+
+.prev.disabled,
+.next.disabled {
+  pointer-events: none;
+  color: #999;
+}
+
+.dugmeSpisak{
+    background: #AA0110;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px 10px;
+    transition: .4s ease-in;
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
